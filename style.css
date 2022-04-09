@@ -50,6 +50,8 @@ h1{
 }
 .recipie-section{
     margin-bottom: 150px;
+    width: 80%;
+    margin: auto;
 }
 .my-recipies{
     text-align: center;
@@ -66,8 +68,8 @@ h1{
     margin: 14px;
 }
 .recipe-details img{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     border-radius: 20px;
     margin: 50px;
 }
