@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
+.half-width h1{
     font-size: 60px;
     font-weight: 800;
 }
@@ -23,7 +23,7 @@ h1{
 }
 .half-width p{
     padding-bottom: 30px;
-
+    
 }
 .link-button{
     text-decoration: none;
@@ -52,6 +52,7 @@ h1{
     margin-bottom: 150px;
     width: 80%;
     margin: auto;
+    margin-bottom: 150px;
 }
 .my-recipies{
     text-align: center;
@@ -84,4 +85,44 @@ h1{
     font-weight: 400;
     margin-right: 30px;
     margin-bottom: 50px;
+}
+.counter{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 80px 0;
+    border-radius: 20px;
+    box-shadow: 10px 25px 120px rgb(155, 140, 140);
+    margin-bottom: 150px;
+    
+}
+.counter-item{
+    width: 33%;
+    text-align: center;
+}
+.counter-item h2{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.counter-item p{
+    font-weight: 400;
+}
+.footer{
+
+    background-size: cover;
+    background-color: black;
+    padding: 35px 0;
+    text-align: center;
+
+}
+.footer h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #756f6f;
+}
+.footer p{
+    font-weight: 600;
+    color: #756f6f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
